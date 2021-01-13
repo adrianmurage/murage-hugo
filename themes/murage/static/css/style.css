@@ -1,0 +1,28 @@
+      #white-container {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+      }
+
+      img {
+        margin: auto;
+        width: 200px;
+        display: block;
+      }
+
+      a {
+        color: #333;
+      }
+      @media (max-width: 700px) {
+        body {
+          background-color: #fff;
+        }
+        #white-container {
+          width: auto;
+          margin: 0 auto;
+          border-radius: 0;
+          padding: 1em;
+        }
+      }
